@@ -1,0 +1,7 @@
+package com.example.thingfinding;
+
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.database.Cursor;
+impo

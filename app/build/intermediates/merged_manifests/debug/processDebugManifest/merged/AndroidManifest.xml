@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.application"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="27" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.guistar.memorandum.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.guistar.memorandum.view.Register" />
+        <activity android:name="com.example.guistar.memorandum.view.Forget" />
+        <activity android:name="com.example.guistar.memorandum.fragment.FragmentMain" />
+        <activity android:name="com.example.guistar.memorandum.fragment.FragmentHome" />
+        <activity android:name="com.example.guistar.memorandum.fragment.FragmentAdd" />
+        <activity android:name="com.example.guistar.memorandum.fragment.FragmentMy" />
+        <activity android:name="com.example.guistar.memorandum.view.AmendActivity" />
+    </application>
+
+</manifest>
